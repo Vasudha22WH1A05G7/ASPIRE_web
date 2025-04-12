@@ -1,0 +1,57 @@
+.community-container {
+    background-color: #0e0e0e;
+    color: white;
+    padding: 80px 60px;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  .community-heading {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 50px;
+  }
+  
+  .community-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+  
+  .reverse-layout {
+    flex-direction: row-reverse;
+  }
+  
+  .text-section {
+    max-width: 600px;
+  }
+  
+  .about-title {
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+  }
+  
+  .bvrit-heading {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  
+  .description {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #c0c0c0;
+  }
+  
+  .image-section img {
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  .section-gap {
+    height: 60px;
+  }
+  

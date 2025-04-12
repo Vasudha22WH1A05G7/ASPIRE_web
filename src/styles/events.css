@@ -1,0 +1,26 @@
+.events-section {
+  background-color: black;
+  color: white;
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.events-title {
+  font-size: 3rem;
+  color: #00ff88;
+  margin-bottom: 2rem;
+}
+
+.events-carousel {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  gap: 2rem;
+  padding: 1rem;
+  justify-content: center;
+  scroll-padding: 0 50%;
+}
+
+.events-carousel::-webkit-scrollbar {
+  display: none;
+}
