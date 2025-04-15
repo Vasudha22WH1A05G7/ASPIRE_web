@@ -1,0 +1,56 @@
+.event-card {
+  background-color: #111;
+  color: #00ff88;
+  border-radius: 20px;
+  overflow: hidden;
+  padding: 0;
+  min-width: 320px;
+  max-width: 350px;
+  scroll-snap-align: center;
+  flex: 0 0 auto;
+  box-shadow: 0 8px 30px rgba(0, 255, 136, 0.15);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.event-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 40px rgba(0, 255, 136, 0.4);
+}
+
+.event-image {
+  width: 100%;
+  max-height: 250px;
+  object-fit: contain;
+  border-bottom: 2px solid #00ff88;
+  background-color: #000; /* To avoid white space around portrait images */
+}
+
+
+.event-details {
+  padding: 1.5rem;
+}
+
+.event-card h2 {
+  font-size: 1.6rem;
+  margin: 0 0 0.75rem;
+}
+
+.event-card p {
+  font-size: 1.1rem;
+  margin-bottom: 1.2rem;
+}
+
+.event-card button {
+  padding: 0.6rem 1.2rem;
+  background-color: #00ff88;
+  color: black;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.event-card button:hover {
+  background-color: #00cc70;
+}
